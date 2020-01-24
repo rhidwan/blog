@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Cairo&display=swap');
+body {
+  height: 100%;
+  font-family: 'Acme', sans-serif;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+
+.sidenav a {
+  display: block;
+  text-decoration: none !important;
+  color: black ;
+  margin: 0 1rem 1rem 0;
+}
+
+.social-icon a {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Acme', sans-serif;
+  margin: 0;
+  /* font-weight: 800;  */
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none !important; 
+  color: inherit !important;
+
+}
+
+a:hover {
+  cursor: pointer !important;
+  color: red !important; 
+}
+
+.nav-mobile {
+  visibility: hidden;
+}
+
+.btn-filled {
+  display: none !important;
+}
+
+
+/* @media screen and (max-width: 574px) {
+  .sidenav {
+    display: none;
+  }
+  .nav-mobile {
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width:574px) and (max-width: 940px) {
+  #root {
+    font-size: 1rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+  .lg-heading {
+    font-size: 1.5rem;
+  }
+  .fab{
+    font-size: 2rem !important; 
+  }
+}
+ */
+
+ .avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+pre , code {
+  padding: 1rem;
+  background-color: #dcdada;
+  border-radius: 1rem;
+}
+
+ul li {
+  list-style-type: disc;
+}
