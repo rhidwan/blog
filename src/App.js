@@ -20,7 +20,7 @@ function App() {
           <Col className="mt-3 mx-auto" md={6} sm={8} xs={10}>
             <h1 className="text-center"><b>Rhidwan's Personal Blog </b></h1>
             <Row>
-              <Col sm={2} xs={2}><img className="avatar" src="/portrait.jpg" /></Col>
+              <Col sm={2} xs={2}><img className="avatar" alt="avatar" src="/blog/portrait.jpg" /></Col>
               <Col sm={10} xs={10}>Personal Blog By
                 <a href="https://rhidwan.github.io"><u><b> Iqbal Mohammad Rhidwan</b></u></a>
                 <p>Here I talk about some work of mine as a <strong>student of Electrical and Electronic Engineering</strong>  and also as a <strong>Programmer</strong></p>

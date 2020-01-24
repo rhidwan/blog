@@ -22,7 +22,7 @@ class Post extends Component {
   }
   
   render() {
-    const {post, isLoaded, date} = this.state; 
+    const {post, isLoaded} = this.state; 
     if (isLoaded){
         return (
             <Fragment>
